@@ -1,0 +1,159 @@
+ /*admin*/
+ 
+ email:lamiazidane213@gmail.com
+password:Admin123
+
+ /*client*/
+ email : client@lvoiture.com
+ password: Client123      
+
+/*style.css*/
+/*style.js*/
+/* Global Styles */
+
+ index.php
+ Contact .php
+ conditions.php
+ views/reservations/index.php
+ views/voitures/index.php
+
+ /*auth.css*/
+ /*auth.js*/
+ views/auth/ *
+
+/*dashbord.css*/
+/*dashbord.js*/
+views/admin/ *
+views/client/ *
+
+
+# Présentation
+
+Cette application web permet la gestion d’un système de location de voitures.
+Elle possède deux espaces :
+
+* Un espace client
+* Un espace administrateur
+
+Le client peut consulter les voitures disponibles et effectuer des réservations.
+L’administrateur peut gérer les véhicules, les réservations et les utilisateurs.
+
+
+
+# Contrôleurs
+
+## AdminController.php
+
+Gère les fonctionnalités d’administration :
+
+* Gestion des voitures
+* Gestion des réservations
+* Tableau de bord
+* Statistiques
+* Messages de contact
+
+---
+
+## AuthController.php
+
+Gère l’authentification :
+
+* Inscription
+* Connexion
+* Déconnexion
+* Vérification email
+* Réinitialisation du mot de passe
+
+---
+
+## ReservationController.php
+
+Gère les réservations :
+
+* Création de réservation
+* Vérification de disponibilité
+* Confirmation
+* Annulation
+* Historique des réservations
+
+
+
+## VoitureController.php
+
+Gère les véhicules :
+
+* Affichage des voitures
+* Détails d’un véhicule
+* Recherche par identifiant
+
+
+
+# Pages principales
+
+## Pages publiques
+
+* `index.php`  Accueil
+* `Contact.php` Contact
+* `conditions.php`  Conditions générales
+* `aide.php` →Aide
+
+
+
+## Pages d’authentification
+
+Contient :
+
+* Connexion
+* Inscription
+* Mot de passe oublié
+
+
+
+## Pages administrateur
+Contient :
+
+* Dashboard admin
+* Gestion voitures
+* Gestion réservations
+* Gestion utilisateurs
+
+## Pages client
+
+
+Contient :
+
+* Profil
+* Réservations
+* Historique
+
+
+
+# Fonctionnalités
+
+## Client
+
+* Créer un compte
+* Se connecter
+* Réserver une voiture
+* Consulter les réservations
+* Modifier le profil
+
+## Administrateur
+
+* Ajouter des voitures
+* Modifier des voitures
+* Supprimer des voitures
+* Gérer les réservations
+* Voir les statistiques
+
+
+# Sécurité
+
+L’application utilise :
+
+* Validation des formulaires
+* Sessions utilisateurs
+* Vérification email
+* Protection des accès administrateur
+
+
